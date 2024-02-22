@@ -64,3 +64,36 @@ img {
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media (max-width: 600px) {
+    .choice {
+        height: 100px;
+        width: 100px;
+
+    }
+    .choices {
+        gap: 1rem;
+    }
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+    img {
+        height: 90px;
+        width: 90px;
+
+    }
+    .msg {
+        font-size: 1rem;
+    }
+        
+    #comp-score, #user-score {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
